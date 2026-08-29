@@ -1,0 +1,64 @@
+about:
+  description: World's fastest and most advanced password recovery utility
+  license: NOASSERTION
+  homepage: https://hashcat.net/hashcat/
+  head: c6df254
+  archived: false
+  latestVersion: v7.1.2
+  collectedAt: 2026-08-29T07:07:43Z
+timeline:
+  created: 2015-12-04
+  lastCommit: 2026-08-29
+  lastRelease: 2025-08-23
+popularity:
+  star: 26647
+  watcher: 520
+  fork: 3541
+  release: 28
+  contributor: 186
+  pullRequest: 295
+  issue: 2291
+language:
+  C: 54907182
+  Perl: 1168411
+  Shell: 352394
+  Python: 167615
+  Makefile: 107052
+  Rust: 70761
+  C++: 59292
+  Objective-C: 59209
+  Batchfile: 191
+totalLine: 56892107
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 0
+    mergedPR: 37
+    openPR: 11
+    closedIssue: 10
+    openIssue: 7
+    commit: 156
+  last90d:
+    since: 2026-05-31
+    release: 0
+    mergedPR: 40
+    openPR: 26
+    closedIssue: 15
+    openIssue: 12
+    commit: 163
+  last180d:
+    since: 2026-03-02
+    release: 0
+    mergedPR: 56
+    openPR: 52
+    closedIssue: 25
+    openIssue: 19
+    commit: 166
+  last360d:
+    since: 2025-09-03
+    release: 0
+    mergedPR: 129
+    openPR: 67
+    closedIssue: 62
+    openIssue: 45
+    commit: 407
