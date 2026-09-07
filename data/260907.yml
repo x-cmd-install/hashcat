@@ -2,100 +2,100 @@ about:
   description: "World's fastest and most advanced password recovery utility"
   license: NOASSERTION
   homepage: https://hashcat.net/hashcat/
-  head: e2a7ab8
+  head: 8c5ae7c
   archived: false
   latestVersion: "v7.1.2"
-  collectedAt: 2026-09-07T04:24:15Z
+  collectedAt: 2026-09-07T19:58:22Z
 timeline:
   created: 2015-12-04
-  lastCommit: 2026-09-06
+  lastCommit: 2026-09-07
   lastRelease: 2025-08-23
 popularity:
-  star: 26715
+  star: 26725
   watcher: 526
-  fork: 3548
+  fork: 3551
   release: 28
   contributor: 187
-  pullRequest: 2481
+  pullRequest: 2482
   issue: 2292
 language:
-  C: 55769019
+  C: 55760924
   Perl: 1215873
-  Shell: 406746
+  Shell: 406762
   Python: 174799
   Makefile: 96499
   Rust: 70761
   C++: 62170
   Objective-C: 59843
   Batchfile: 191
-totalBytes: 57855901
+totalBytes: 57847822
 recent:
   last30d:
     since: 2026-08-08
     release: 0
-    mergedPR: 38
+    mergedPR: 39
     openPR: 8
     closedIssue: 12
     openIssue: 2
-    commit: 162
+    commit: 164
   last60d:
     since: 2026-07-09
     release: 0
-    mergedPR: 54
+    mergedPR: 55
     openPR: 19
     closedIssue: 16
     openIssue: 7
-    commit: 223
+    commit: 225
   last90d:
     since: 2026-06-09
     release: 0
-    mergedPR: 56
+    mergedPR: 57
     openPR: 26
     closedIssue: 18
     openIssue: 9
-    commit: 223
+    commit: 225
   last180d:
     since: 2026-03-11
     release: 0
-    mergedPR: 70
+    mergedPR: 71
     openPR: 50
     closedIssue: 27
     openIssue: 15
-    commit: 224
+    commit: 226
   last360d:
     since: 2025-09-12
     release: 0
-    mergedPR: 134
+    mergedPR: 135
     openPR: 67
     closedIssue: 61
     openIssue: 41
-    commit: 419
+    commit: 421
   last720d:
     since: 2024-09-17
     release: 4
-    mergedPR: 385
+    mergedPR: 386
     openPR: 71
     closedIssue: 167
     openIssue: 61
-    commit: 1637
+    commit: 1639
 total:
   release: 28
-  mergedPR: 2184
+  mergedPR: 2185
   openPR: 82
   closedIssue: 2022
   openIssue: 270
-  commit: 11279
+  commit: 11281
 ---
 path: /home/runner/.x-repo/github.com/hashcat/hashcat
-collectedAt: 2026-09-07T04:24:39Z
+collectedAt: 2026-09-07T19:58:45Z
 loc:
   C:
-    code: 229307
-    comments: 20451
+    code: 229296
+    comments: 20453
     blanks: 66359
     files: 755
   CHeader:
-    code: 215250
+    code: 215180
     comments: 9190
     blanks: 8349
     files: 250
@@ -186,13 +186,13 @@ loc:
     files: 45
   Text:
     code: 0
-    comments: 4168
-    blanks: 614
+    comments: 4268
+    blanks: 620
     files: 27
 total:
-  code: 509497
-  comments: 47216
-  blanks: 101181
+  code: 509416
+  comments: 47318
+  blanks: 101187
   files: 1726
 ---
 date: "2026-08-24"
@@ -318,7 +318,7 @@ checks:
       - 'Info:   0 out of   6 pipCommand dependencies pinned'
 ---
 eget:
-  collectedAt: 2026-09-07T04:24:41+00:00
+  collectedAt: 2026-09-07T19:58:47+00:00
   platform:
     darwin/arm64:
       name:  null
