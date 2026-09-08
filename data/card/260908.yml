@@ -5,13 +5,13 @@ about:
   head: 409d7b4
   archived: false
   latestVersion: "v7.1.2"
-  collectedAt: 2026-09-08T01:45:21Z
+  collectedAt: 2026-09-08T04:25:11Z
 timeline:
   created: 2015-12-04
   lastCommit: 2026-09-07
   lastRelease: 2025-08-23
 popularity:
-  star: 26724
+  star: 26725
   watcher: 526
   fork: 3551
   release: 28
@@ -87,7 +87,7 @@ total:
   commit: 11285
 ---
 path: /home/runner/.x-repo/github.com/hashcat/hashcat
-collectedAt: 2026-09-08T01:45:46Z
+collectedAt: 2026-09-08T04:25:41Z
 loc:
   C:
     code: 229296
