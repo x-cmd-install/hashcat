@@ -2,106 +2,106 @@ about:
   description: "World's fastest and most advanced password recovery utility"
   license: NOASSERTION
   homepage: https://hashcat.net/hashcat/
-  head: 15a71f8
+  head: 4184629
   archived: false
   latestVersion: "v7.1.2"
   latestRelease: "v7.1.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T04:31:49Z
+  collectedAt: 2026-09-09T18:39:05Z
 timeline:
   created: 2015-12-04
-  lastCommit: 2026-09-08
+  lastCommit: 2026-09-09
   lastVersion: 2025-08-23
   lastRelease: 2025-08-23
   lastPrerelease: 
 popularity:
-  star: 26737
+  star: 26739
   watcher: 526
   fork: 3553
   release: 28
   contributor: 189
-  pullRequest: 2484
+  pullRequest: 2485
   issue: 2294
 language:
-  C: 55770956
+  C: 55788524
   Perl: 1215802
-  Shell: 406372
+  Shell: 406989
   Python: 174799
-  Makefile: 96639
+  Makefile: 96965
   Rust: 70761
   C++: 62170
   Objective-C: 59843
   Batchfile: 191
-totalBytes: 57857533
+totalBytes: 57876044
 recent:
   last30d:
     since: 2026-08-10
     release: 0
-    mergedPR: 38
+    mergedPR: 39
     openPR: 8
     closedIssue: 12
     openIssue: 2
-    commit: 171
+    commit: 174
   last60d:
     since: 2026-07-11
     release: 0
-    mergedPR: 55
+    mergedPR: 56
     openPR: 21
     closedIssue: 17
     openIssue: 8
-    commit: 232
+    commit: 235
   last90d:
     since: 2026-06-11
     release: 0
-    mergedPR: 57
+    mergedPR: 58
     openPR: 27
     closedIssue: 19
     openIssue: 10
-    commit: 232
+    commit: 235
   last180d:
     since: 2026-03-13
     release: 0
-    mergedPR: 71
+    mergedPR: 72
     openPR: 49
     closedIssue: 28
     openIssue: 16
-    commit: 233
+    commit: 236
   last360d:
     since: 2025-09-14
     release: 0
-    mergedPR: 136
+    mergedPR: 137
     openPR: 67
     closedIssue: 62
     openIssue: 41
-    commit: 429
+    commit: 432
   last720d:
     since: 2024-09-19
     release: 4
-    mergedPR: 387
+    mergedPR: 388
     openPR: 71
     closedIssue: 167
     openIssue: 61
-    commit: 1646
+    commit: 1649
 total:
   release: 28
-  mergedPR: 2187
+  mergedPR: 2188
   openPR: 82
   closedIssue: 2024
   openIssue: 270
-  commit: 11288
+  commit: 11291
 ---
 path: /home/runner/.x-repo/github.com/hashcat/hashcat
-collectedAt: 2026-09-09T04:32:12Z
+collectedAt: 2026-09-09T18:39:32Z
 loc:
   C:
-    code: 229332
-    comments: 20505
-    blanks: 66393
+    code: 229525
+    comments: 20581
+    blanks: 66490
     files: 755
   CHeader:
-    code: 215218
-    comments: 9195
-    blanks: 8355
+    code: 215223
+    comments: 9198
+    blanks: 8358
     files: 250
   Perl:
     code: 34412
@@ -114,9 +114,9 @@ loc:
     blanks: 1774
     files: 4
   Sh:
-    code: 6869
-    comments: 1103
-    blanks: 2345
+    code: 6877
+    comments: 1107
+    blanks: 2348
     files: 17
   Python:
     code: 4008
@@ -139,9 +139,9 @@ loc:
     blanks: 768
     files: 2
   Makefile:
-    code: 1451
-    comments: 734
-    blanks: 464
+    code: 1454
+    comments: 737
+    blanks: 466
     files: 12
   Yaml:
     code: 758
@@ -194,9 +194,9 @@ loc:
     blanks: 623
     files: 27
 total:
-  code: 509478
-  comments: 47404
-  blanks: 101231
+  code: 509687
+  comments: 47490
+  blanks: 101336
   files: 1726
 ---
 date: "2026-09-07"
