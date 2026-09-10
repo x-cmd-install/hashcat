@@ -21,37 +21,42 @@ x install hashcat
 ## Release
 
 - **Latest**: `v7.1.2` (2025-08-23)
-- **Last commit**: 2026-09-09
+- **Last commit**: 2026-09-10
 - **Assets in release**: 1
-- **Published**: 2025-08-23T08:49:12Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [hashcat-7.1.2.7z](https://github.com/hashcat/hashcat/releases/download/v7.1.2/hashcat-7.1.2.7z) | 18.8 MiB | `other` |
 
 ## Popularity
 
-- **Stars**: 26,739 · **Forks**: 3,553 · **Open issues**: 2,294 · **Contributors**: 189
+- **Stars**: 26,745 · **Forks**: 3,552 · **Open issues**: 2,294 · **Contributors**: 190
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 2188 · **Open PRs**: 83 · **Closed issues**: 2024 · **Open issues**: 270 · **Commits**: 11292
+- **Releases**: 28 · **Merged PRs**: 2193 · **Open PRs**: 78 · **Closed issues**: 2024 · **Open issues**: 270 · **Commits**: 11300
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 36 | 9 | 11 | 2 | 175 |
-| 90d | 2026-06-12 | 0 | 58 | 28 | 19 | 10 | 236 |
-| 360d | 2025-09-15 | 0 | 135 | 68 | 62 | 41 | 433 |
+| 30d | 2026-08-11 | 0 | 41 | 4 | 11 | 2 | 183 |
+| 90d | 2026-06-12 | 0 | 63 | 23 | 19 | 10 | 244 |
+| 360d | 2025-09-15 | 0 | 140 | 63 | 62 | 41 | 441 |
 
 ## Code size
 
-Total: **509,203** lines of code across **1565** files in the top 5 languages.
+Total: **511,584** lines of code across **1566** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 229,530 | 20,584 | 66,493 | 755 |
-| CHeader | 215,223 | 9,198 | 8,358 | 250 |
-| Perl | 34,412 | 4,707 | 16,460 | 539 |
+| C | 231,585 | 21,231 | 67,624 | 757 |
+| CHeader | 215,273 | 9,249 | 8,386 | 251 |
+| Perl | 34,334 | 4,673 | 16,415 | 537 |
 | Cpp | 10,328 | 269 | 1,774 | 4 |
-| Sh | 6,877 | 1,107 | 2,348 | 17 |
+| Sh | 6,979 | 1,137 | 2,380 | 17 |
 
 ## OpenSSF Scorecard
 
@@ -68,8 +73,8 @@ Lowest-scoring checks:
 Install metadata for hashcat lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `hashcat` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/hashcat.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/hashcat.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:29:31Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:11:59Z._
