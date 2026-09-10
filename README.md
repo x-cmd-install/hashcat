@@ -14,12 +14,12 @@ x install hashcat
 
 ## Code insight
 
-Total: **511,232** lines of code across **1565** files in the top 5 languages.
+Total: **511,428** lines of code across **1565** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 231,534 | 21,299 | 67,657 | 756 |
-| CHeader | 215,063 | 9,302 | 8,378 | 251 |
+| C | 231,724 | 21,365 | 67,775 | 756 |
+| CHeader | 215,069 | 9,317 | 8,384 | 251 |
 | Perl | 34,262 | 4,678 | 16,426 | 537 |
 | Cpp | 10,328 | 269 | 1,774 | 4 |
 | Sh | 6,979 | 1,137 | 2,380 | 17 |
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 2193 · **Open PRs**: 78 · **Closed issues**: 2024 · **Open issues**: 270 · **Commits**: 11301
+- **Releases**: 28 · **Merged PRs**: 2193 · **Open PRs**: 78 · **Closed issues**: 2024 · **Open issues**: 270 · **Commits**: 11302
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 41 | 4 | 11 | 2 | 184 |
-| last60d | 2026-07-12 | 0 | 61 | 17 | 17 | 6 | 245 |
-| 90d | 2026-06-12 | 0 | 63 | 23 | 19 | 10 | 245 |
-| last180d | 2026-03-14 | 0 | 77 | 45 | 28 | 16 | 246 |
-| 360d | 2025-09-15 | 0 | 140 | 63 | 62 | 41 | 442 |
-| last720d | 2024-09-20 | 4 | 393 | 67 | 167 | 61 | 1658 |
+| 30d | 2026-08-11 | 0 | 41 | 4 | 11 | 2 | 185 |
+| last60d | 2026-07-12 | 0 | 61 | 17 | 17 | 6 | 246 |
+| 90d | 2026-06-12 | 0 | 63 | 23 | 19 | 10 | 246 |
+| last180d | 2026-03-14 | 0 | 77 | 45 | 28 | 16 | 247 |
+| 360d | 2025-09-15 | 0 | 140 | 63 | 62 | 41 | 443 |
+| last720d | 2024-09-20 | 4 | 393 | 67 | 167 | 61 | 1659 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for hashcat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:10:18Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:41:09Z._
