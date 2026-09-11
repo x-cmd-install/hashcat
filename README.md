@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 41 | 4 | 11 | 2 | 185 |
-| last60d | 2026-07-12 | 0 | 61 | 17 | 17 | 6 | 246 |
-| 90d | 2026-06-12 | 0 | 63 | 23 | 19 | 10 | 246 |
-| last180d | 2026-03-14 | 0 | 77 | 45 | 28 | 16 | 247 |
-| 360d | 2025-09-15 | 0 | 140 | 63 | 62 | 41 | 443 |
-| last720d | 2024-09-20 | 4 | 393 | 67 | 167 | 61 | 1659 |
+| 30d | 2026-08-12 | 0 | 41 | 4 | 11 | 1 | 185 |
+| last60d | 2026-07-13 | 0 | 61 | 16 | 16 | 6 | 246 |
+| 90d | 2026-06-13 | 0 | 63 | 23 | 19 | 10 | 246 |
+| last180d | 2026-03-15 | 0 | 77 | 43 | 27 | 16 | 247 |
+| 360d | 2025-09-16 | 0 | 140 | 63 | 62 | 40 | 443 |
+| last720d | 2024-09-21 | 4 | 393 | 67 | 167 | 61 | 1659 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for hashcat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T23:41:09Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T04:28:19Z._
