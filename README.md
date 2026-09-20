@@ -4,7 +4,7 @@
 
 World's fastest and most advanced password recovery utility
 
-![hashcat](https://repo.x-cmd.io/hashcat.svg)
+[![x-cmd/install — hashcat Code Quality Monitoring Repo Card](https://repo.x-cmd.io/hashcat.svg)](https://x-cmd.com/install/hashcat)
 
 ## Install
 
@@ -14,13 +14,13 @@ x install hashcat
 
 ## Code insight
 
-Total: **512,588** lines of code across **1578** files in the top 5 languages.
+Total: **513,411** lines of code across **1578** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 231,584 | 22,554 | 67,982 | 759 |
-| CHeader | 214,609 | 9,448 | 8,438 | 251 |
-| Perl | 35,409 | 4,848 | 16,895 | 546 |
+| C | 232,346 | 22,752 | 68,280 | 759 |
+| CHeader | 214,630 | 9,457 | 8,446 | 251 |
+| Perl | 35,448 | 4,858 | 16,910 | 546 |
 | Cpp | 10,328 | 269 | 1,774 | 4 |
 | Sh | 7,367 | 1,315 | 2,582 | 18 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v7.1.2` (2025-08-23)
-- **Last commit**: 2026-09-18
+- **Last commit**: 2026-09-19
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 26,791 · **Forks**: 3,561 · **Open issues**: 2,296 · **Contributors**: 193
+- **Stars**: 26,812 · **Forks**: 3,564 · **Open issues**: 2,297 · **Contributors**: 196
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 2235 · **Open PRs**: 72 · **Closed issues**: 2024 · **Open issues**: 272 · **Commits**: 11382
+- **Releases**: 28 · **Merged PRs**: 2253 · **Open PRs**: 60 · **Closed issues**: 2029 · **Open issues**: 268 · **Commits**: 11403
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 60 | 11 | 11 | 5 | 191 |
-| last60d | 2026-07-20 | 0 | 94 | 19 | 16 | 9 | 308 |
-| 90d | 2026-06-20 | 0 | 98 | 24 | 19 | 13 | 309 |
-| last180d | 2026-03-22 | 0 | 115 | 39 | 28 | 19 | 311 |
-| 360d | 2025-09-23 | 0 | 169 | 58 | 62 | 43 | 467 |
-| last720d | 2024-09-28 | 4 | 434 | 62 | 167 | 62 | 1739 |
+| 30d | 2026-08-21 | 0 | 70 | 8 | 12 | 4 | 170 |
+| last60d | 2026-07-22 | 0 | 107 | 15 | 18 | 8 | 324 |
+| 90d | 2026-06-22 | 0 | 112 | 18 | 21 | 12 | 330 |
+| last180d | 2026-03-24 | 0 | 130 | 31 | 31 | 17 | 331 |
+| 360d | 2025-09-25 | 0 | 184 | 47 | 63 | 41 | 453 |
+| last720d | 2024-09-30 | 4 | 452 | 50 | 170 | 59 | 1760 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for hashcat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:32:23Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T04:49:52Z._
