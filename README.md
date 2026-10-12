@@ -14,13 +14,13 @@ x install hashcat
 
 ## Code insight
 
-Total: **516,220** lines of code across **1701** files in the top 5 languages.
+Total: **519,682** lines of code across **1705** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 246,034 | 25,361 | 72,968 | 796 |
-| CHeader | 215,310 | 9,805 | 8,707 | 263 |
-| Python | 30,712 | 6,354 | 17,967 | 614 |
+| C | 248,974 | 25,786 | 74,234 | 797 |
+| CHeader | 215,531 | 9,916 | 8,816 | 266 |
+| Python | 30,725 | 6,361 | 17,976 | 614 |
 | Cpp | 10,328 | 269 | 1,774 | 4 |
 | Sh | 2,639 | 771 | 1,001 | 24 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v7.1.2` (2025-08-23)
-- **Last commit**: 2026-10-10
+- **Last commit**: 2026-10-12
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 26,972 · **Forks**: 3,575 · **Open issues**: 2,313 · **Contributors**: 201
+- **Stars**: 26,976 · **Forks**: 3,577 · **Open issues**: 2,314 · **Contributors**: 201
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 2349 · **Open PRs**: 27 · **Closed issues**: 2096 · **Open issues**: 217 · **Commits**: 11568
+- **Releases**: 28 · **Merged PRs**: 2357 · **Open PRs**: 20 · **Closed issues**: 2096 · **Open issues**: 218 · **Commits**: 11581
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 0 | 96 | 12 | 16 | 3 | 164 |
-| last60d | 2026-08-12 | 0 | 150 | 12 | 27 | 4 | 370 |
-| 90d | 2026-07-13 | 0 | 182 | 12 | 34 | 7 | 472 |
-| last180d | 2026-04-14 | 0 | 207 | 16 | 49 | 9 | 473 |
-| 360d | 2025-10-16 | 0 | 258 | 21 | 83 | 25 | 524 |
-| last720d | 2024-10-21 | 4 | 546 | 21 | 196 | 42 | 1923 |
+| 30d | 2026-09-12 | 0 | 98 | 5 | 14 | 4 | 177 |
+| last60d | 2026-08-13 | 0 | 157 | 5 | 27 | 5 | 383 |
+| 90d | 2026-07-14 | 0 | 190 | 5 | 34 | 8 | 485 |
+| last180d | 2026-04-15 | 0 | 214 | 9 | 49 | 10 | 486 |
+| 360d | 2025-10-17 | 0 | 265 | 14 | 83 | 26 | 537 |
+| last720d | 2024-10-22 | 4 | 554 | 14 | 195 | 43 | 1936 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for hashcat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T05:40:37Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T05:54:44Z._
