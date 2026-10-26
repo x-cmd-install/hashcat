@@ -1,68 +1,13 @@
-- repo: pardus_21
-  subrepo: main
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 6.1.1
-  origversion: 6.1.1+ds1-1
-  status: outdated
+- repo: aur
+  srcname: hashcat-git
+  binname: hashcat-git
+  visiblename: hashcat-git
+  version: 5.0.0
+  origversion: 5.0.0+52+g2aff01b2-1
+  status: rolling
+  summary: Multithreaded advanced password recovery utility
   maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon77@gmail.com
-  categories:
-    - misc
-- repo: nix_stable_25_05
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: kali_rolling
-  subrepo: main
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 7.1.2
-  origversion: 7.1.2+ds1-4
-  status: newest
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon@debian.org
-  categories:
-    - misc
-- repo: nix_stable_24_05
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - kierdavis@gmail.com
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - zimbatm@zimbatm.com
+    - anthraxx@aur
   licenses:
     - MIT
 - repo: alpine_edge
@@ -125,7 +70,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2-alt1
-  status: newest
+  status: outdated
   summary: Advanced password recovery utility
   maintainers:
     - gerben@altlinux.org
@@ -139,7 +84,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2-1
-  status: newest
+  status: outdated
   summary: Multithreaded password recovery utility
   maintainers:
     - fallback-mnt-aosc@repology
@@ -150,22 +95,10 @@
   srcname: hashcat
   binname: hashcat
   visiblename: hashcat
-  version: 7.1.2
-  origversion: 1:7.1.2-2
+  version: 8.0.0
+  origversion: 1:8.0.0-1
   status: newest
   summary: Multithreaded advanced password recovery utility
-  licenses:
-    - MIT
-- repo: aur
-  srcname: hashcat-git
-  binname: hashcat-git
-  visiblename: hashcat-git
-  version: 5.0.0
-  origversion: 5.0.0+52+g2aff01b2-1
-  status: rolling
-  summary: Multithreaded advanced password recovery utility
-  maintainers:
-    - anthraxx@aur
   licenses:
     - MIT
 - repo: artix
@@ -175,7 +108,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 1:7.1.2-2
-  status: newest
+  status: outdated
   summary: Multithreaded advanced password recovery utility
   licenses:
     - MIT
@@ -214,7 +147,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2-r0
-  status: newest
+  status: outdated
   summary: Password recovery tool
   licenses:
     - MIT
@@ -225,7 +158,7 @@
   visiblename: hashcat-doc
   version: 7.1.2
   origversion: 7.1.2-r0
-  status: newest
+  status: outdated
   summary: Password recovery tool (documentation)
   licenses:
     - MIT
@@ -234,7 +167,7 @@
   visiblename: Hashcat (Install)
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest password cracker
 - repo: debian_11
   subrepo: bullseye/main
@@ -290,7 +223,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2+ds1-4
-  status: newest
+  status: outdated
   maintainers:
     - team+pkg-security@tracker.debian.org
     - epsilon@debian.org
@@ -305,7 +238,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2+ds1-4
-  status: newest
+  status: outdated
   maintainers:
     - team+pkg-security@tracker.debian.org
     - epsilon@debian.org
@@ -363,7 +296,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2+ds1-4
-  status: newest
+  status: outdated
   maintainers:
     - team+pkg-security@tracker.debian.org
     - epsilon@debian.org
@@ -463,7 +396,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2-5.fc44
-  status: newest
+  status: outdated
   summary: Advanced password recovery utility
   licenses:
     - MIT AND LicenseRef-Fedora-Public-Domain AND BSD-2-Clause AND Apache-2.0
@@ -479,7 +412,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2-6.fc45
-  status: newest
+  status: outdated
   summary: Advanced password recovery utility
   licenses:
     - MIT AND LicenseRef-Fedora-Public-Domain AND BSD-2-Clause AND Apache-2.0
@@ -491,7 +424,7 @@
   visiblename: security/hashcat
   version: 7.1.2
   origversion: 7.1.2_14,1
-  status: newest
+  status: outdated
   summary: Advanced CPU-based password recovery utility
   maintainers:
     - se@freebsd.org
@@ -523,12 +456,26 @@
     - MIT
   categories:
     - app-crypt
+- repo: openmandriva_cooker
+  subrepo: unsupported/release
+  srcname: hashcat
+  visiblename: hashcat
+  version: 5.1.0
+  origversion: 5.1.0-1
+  status: outdated
+  summary: CPU-based password recovery utility
+  maintainers:
+    - nobodydead@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Security
 - repo: gentoo
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
   version: 7.1.2
   origversion: 7.1.2-r1
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - zerochaos@gentoo.org
@@ -541,7 +488,7 @@
   visiblename: app-crypt/hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - zerochaos@gentoo.org
@@ -555,14 +502,14 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: Advanced password recovery utility
 - repo: homebrew
   srcname: hashcat
   visiblename: hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility
 - repo: homebrew
   srcname: hashcat
@@ -571,6 +518,21 @@
   origversion: null
   status: rolling
   summary: World's fastest and most advanced password recovery utility
+- repo: kali_rolling
+  subrepo: main
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 7.1.2
+  origversion: 7.1.2+ds1-4
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - epsilon@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -602,7 +564,7 @@
   visiblename: app-crypt/hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - zerochaos@gentoo.org
@@ -610,29 +572,12 @@
     - MIT
   categories:
     - app-crypt
-- repo: opensuse_security_tumbleweed
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-debuginfo
-    - hashcat-debugsource
-    - libhashcat7
-    - hashcat-devel
-  visiblename: hashcat
-  version: 7.1.2
-  origversion: 7.1.2+git942-1.1
-  status: newest
-  summary: CPU-based password recovery utility
-  licenses:
-    - GPL-2.0-or-later AND MIT
-  categories:
-    - Productivity/Security
 - repo: liguros_develop
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
   version: 7.1.2
   origversion: 7.1.2-r1
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - zerochaos@gentoo.org
@@ -645,7 +590,7 @@
   visiblename: app-crypt/hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - zerochaos@gentoo.org
@@ -653,6 +598,17 @@
     - MIT
   categories:
     - app-crypt
+- repo: openpkg_current
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.0.0
+  origversion: null
+  status: outdated
+  summary: Password Recovery Utility
+  licenses:
+    - MIT
+  categories:
+    - Cryptography
 - repo: liguros_develop
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -685,7 +641,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility.
   maintainers:
     - gaming-hacker@github
@@ -700,7 +656,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 1:7.1.2-2
-  status: newest
+  status: outdated
   summary: Multithreaded advanced password recovery utility
   licenses:
     - MIT
@@ -711,7 +667,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 1:7.1.2-2
-  status: newest
+  status: outdated
   summary: Multithreaded advanced password recovery utility
   licenses:
     - MIT
@@ -722,8 +678,45 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 1:7.1.2-2
-  status: newest
+  status: outdated
   summary: Multithreaded advanced password recovery utility
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - kierdavis@gmail.com
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - zimbatm@zimbatm.com
   licenses:
     - MIT
 - repo: nix_stable_25_11
@@ -731,7 +724,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: Fast password cracker
   maintainers:
     - felix@albrigtsen.it
@@ -743,7 +736,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: Fast password cracker
   maintainers:
     - felix@albrigtsen.it
@@ -755,7 +748,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: Fast password cracker
   maintainers:
     - felix@albrigtsen.it
@@ -790,31 +783,6 @@
     - MIT
   categories:
     - Productivity/Security
-- repo: openmandriva_cooker
-  subrepo: unsupported/release
-  srcname: hashcat
-  visiblename: hashcat
-  version: 5.1.0
-  origversion: 5.1.0-1
-  status: outdated
-  summary: CPU-based password recovery utility
-  maintainers:
-    - nobodydead@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Security
-- repo: openpkg_current
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.0.0
-  origversion: null
-  status: outdated
-  summary: Password Recovery Utility
-  licenses:
-    - MIT
-  categories:
-    - Cryptography
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: hashcat
@@ -839,6 +807,19 @@
     - GPL-2.0-or-later AND MIT
   categories:
     - Productivity/Security
+- repo: t2
+  srcname: hashcat
+  visiblename: hashcat
+  version: 7.1.2
+  origversion: null
+  status: outdated
+  summary: World's fastest and most advanced password recovery utility
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/security
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: hashcat
@@ -851,7 +832,24 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2-1.6
-  status: newest
+  status: outdated
+  summary: CPU-based password recovery utility
+  licenses:
+    - GPL-2.0-or-later AND MIT
+  categories:
+    - Productivity/Security
+- repo: opensuse_security_tumbleweed
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-debuginfo
+    - hashcat-debugsource
+    - libhashcat7
+    - hashcat-devel
+  visiblename: hashcat
+  version: 7.1.2
+  origversion: 7.1.2+git942-1.1
+  status: outdated
   summary: CPU-based password recovery utility
   licenses:
     - GPL-2.0-or-later AND MIT
@@ -862,14 +860,29 @@
   srcname: hashcat
   binname: hashcat
   visiblename: hashcat
-  version: 7.1.2
-  origversion: 1:7.1.2-2
+  version: 8.0.0
+  origversion: 1:8.0.0-1
   status: newest
   summary: Multithreaded advanced password recovery utility
   licenses:
     - MIT
+- repo: pardus_21
+  subrepo: main
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 6.1.1
+  origversion: 6.1.1+ds1-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - epsilon77@gmail.com
+  categories:
+    - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: hashcat
   binnames:
     - hashcat
@@ -884,7 +897,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: hashcat
   binnames:
     - hashcat
@@ -913,7 +926,7 @@
   visiblename: security/hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -925,7 +938,7 @@
   visiblename: security/hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -937,7 +950,7 @@
   visiblename: security/hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -1027,7 +1040,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2+ds1-4
-  status: newest
+  status: outdated
   maintainers:
     - team+pkg-security@tracker.debian.org
     - epsilon@debian.org
@@ -1057,7 +1070,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2-1
-  status: newest
+  status: outdated
   summary: CPU-based password recovery utility
   maintainers:
     - a.proklov@rosa.ru
@@ -1069,7 +1082,7 @@
   subrepo: main
   binname: hashcat
   visiblename: hashcat
-  version: 7.1.2
+  version: 8.0.0
   origversion: null
   status: newest
   licenses:
@@ -1079,7 +1092,7 @@
   visiblename: system/hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   maintainers:
     - urchlay@slackware.uk
   categories:
@@ -1090,7 +1103,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - jared@jaredcervantes.com
@@ -1104,7 +1117,7 @@
   visiblename: hashcat-dbginfo
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: Debug symbols for hashcat
   maintainers:
     - jared@jaredcervantes.com
@@ -1118,7 +1131,7 @@
   visiblename: hashcat-devel
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: Development files for hashcat
   maintainers:
     - jared@jaredcervantes.com
@@ -1131,31 +1144,18 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   maintainers:
     - fallback-mnt-spack@repology
   licenses:
     - MIT
-- repo: t2
-  srcname: hashcat
-  visiblename: hashcat
-  version: 7.1.2
-  origversion: null
-  status: newest
-  summary: World's fastest and most advanced password recovery utility
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - MIT
-  categories:
-    - extra/security
 - repo: tur
   srcname: hashcat
   binname: hashcat
   visiblename: hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - termux-user-repository@github
@@ -1258,7 +1258,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2+ds1-3
-  status: newest
+  status: outdated
   maintainers:
     - team+pkg-security@tracker.debian.org
     - epsilon@debian.org
@@ -1273,7 +1273,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2+ds1-4
-  status: newest
+  status: outdated
   maintainers:
     - team+pkg-security@tracker.debian.org
     - epsilon@debian.org
@@ -1286,7 +1286,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: 7.1.2_1
-  status: newest
+  status: outdated
   summary: Advanced CPU-based password recovery utility
   maintainers:
     - duncaen@voidlinux.org
@@ -1297,7 +1297,7 @@
   visiblename: Hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: password cracking tool
   licenses:
     - MIT License
@@ -1306,7 +1306,7 @@
   visiblename: hashcat
   version: 7.1.2
   origversion: null
-  status: newest
+  status: outdated
   summary: World's fastest and most advanced password recovery utility.
   licenses:
     - MIT
