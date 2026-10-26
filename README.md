@@ -14,12 +14,12 @@ x install hashcat
 
 ## Code insight
 
-Total: **584,681** lines of code across **2151** files in the top 5 languages.
+Total: **585,197** lines of code across **2151** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 292,017 | 28,201 | 86,930 | 975 |
-| CHeader | 220,193 | 10,901 | 10,411 | 371 |
+| C | 292,481 | 28,322 | 87,174 | 975 |
+| CHeader | 220,206 | 10,903 | 10,414 | 371 |
 | Python | 39,499 | 7,771 | 22,552 | 771 |
 | Cpp | 10,328 | 269 | 1,774 | 4 |
 | Coq | 6,137 | 459 | 1,512 | 30 |
@@ -42,53 +42,54 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v7.1.2` (2025-08-23)
-- **Last commit**: 2026-10-24
-- **Assets in release**: 1
+- **Latest**: `v8.0.0` (2026-10-25)
+- **Last commit**: 2026-10-25
+- **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 27,054 · **Forks**: 3,583 · **Open issues**: 2,318 · **Contributors**: 203
+- **Stars**: 27,092 · **Forks**: 3,590 · **Open issues**: 2,319 · **Contributors**: 203
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 2385 · **Open PRs**: 19 · **Closed issues**: 2150 · **Open issues**: 168 · **Commits**: 11657
+- **Releases**: 29 · **Merged PRs**: 2388 · **Open PRs**: 22 · **Closed issues**: 2153 · **Open issues**: 166 · **Commits**: 11663
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 74 | 6 | 10 | 4 | 151 |
-| last60d | 2026-08-26 | 0 | 166 | 6 | 25 | 6 | 365 |
-| 90d | 2026-07-27 | 0 | 216 | 6 | 36 | 9 | 542 |
-| last180d | 2026-04-28 | 0 | 242 | 10 | 50 | 11 | 558 |
-| 360d | 2025-10-30 | 0 | 282 | 13 | 87 | 23 | 575 |
-| last720d | 2024-11-04 | 4 | 568 | 13 | 202 | 38 | 1966 |
+| 30d | 2026-09-26 | 1 | 75 | 9 | 10 | 5 | 157 |
+| last60d | 2026-08-27 | 1 | 168 | 9 | 25 | 7 | 371 |
+| 90d | 2026-07-28 | 1 | 219 | 9 | 39 | 7 | 548 |
+| last180d | 2026-04-29 | 1 | 245 | 13 | 53 | 9 | 564 |
+| 360d | 2025-10-31 | 1 | 284 | 16 | 90 | 21 | 581 |
+| last720d | 2024-11-05 | 5 | 571 | 16 | 205 | 36 | 1972 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [hashcat-7.1.2.7z](https://github.com/hashcat/hashcat/releases/download/v7.1.2/hashcat-7.1.2.7z) | 18.8 MiB | `other` |
+| [hashcat-8.0.0.7z](https://github.com/hashcat/hashcat/releases/download/v8.0.0/hashcat-8.0.0.7z) | 19.4 MiB | `other` |
+| [hashcat-8.0.0.7z.asc](https://github.com/hashcat/hashcat/releases/download/v8.0.0/hashcat-8.0.0.7z.asc) | 488 B | `other` |
 
 ## Distribution status
 
-Reported by **98** distros on [repology.org](https://repology.org/project/hashcat). **49** are ✅ on the latest upstream release, **41** are ⚠️ on an older version.
+Reported by **98** distros on [repology.org](https://repology.org/project/hashcat). **3** are ✅ on the latest upstream release, **87** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `7.1.2` | ✅ latest |
-| Debian 14 | `7.1.2` | ✅ latest |
+| Debian unstable | `7.1.2` | ⚠️ outdated |
+| Debian 14 | `7.1.2` | ⚠️ outdated |
 | Debian 13 | `6.2.6` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `7.1.2` | ✅ latest |
+| Ubuntu 26.04 LTS | `7.1.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `6.2.6` | ⚠️ outdated |
-| Arch | `7.1.2` | ✅ latest |
-| Homebrew | `7.1.2` | ✅ latest |
-| Fedora rawhide | `7.1.2` | ✅ latest |
-| Nix unstable | `7.1.2` | ✅ latest |
-| Void | `7.1.2` | ✅ latest |
+| Arch | `8.0.0` | ✅ latest |
+| Homebrew | `7.1.2` | ⚠️ outdated |
+| Fedora rawhide | `7.1.2` | ⚠️ outdated |
+| Nix unstable | `7.1.2` | ⚠️ outdated |
+| Void | `7.1.2` | ⚠️ outdated |
 | Alpine edge | `6.2.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `7.1.2` | ✅ latest |
+| openSUSE Tumbleweed | `7.1.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -99,4 +100,4 @@ Install metadata for hashcat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T04:30:14Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T04:33:30Z._
