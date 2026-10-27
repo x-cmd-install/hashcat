@@ -14,25 +14,25 @@ x install hashcat
 
 ## 代码洞察
 
-合计: **585,197** 行代码（覆盖前 5 种语言、共 **2151** 个文件）。
+合计: **585,216** 行代码（覆盖前 5 种语言、共 **2151** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 292,481 | 28,322 | 87,174 | 975 |
-| CHeader | 220,206 | 10,903 | 10,414 | 371 |
+| C | 292,499 | 28,359 | 87,198 | 975 |
+| CHeader | 220,207 | 10,908 | 10,416 | 371 |
 | Python | 39,499 | 7,771 | 22,552 | 771 |
 | Cpp | 10,328 | 269 | 1,774 | 4 |
 | Coq | 6,137 | 459 | 1,512 | 30 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.5 / 10**
+总评分: **4.8 / 10**
 
 评分最低的几项:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (1/10) — Found 5/30 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install hashcat
 ## 发布
 
 - **最新版本**: `v8.0.0` (2026-10-25)
-- **最近提交**: 2026-10-25
+- **最近提交**: 2026-10-26
 - **Release 含资产**: 2 个
 
 ## 流行度
 
-- **Star**: 27,092 · **Fork**: 3,590 · **开放 issue**: 2,319 · **贡献者**: 203
+- **Star**: 27,146 · **Fork**: 3,594 · **开放 issue**: 2,321 · **贡献者**: 203
 
 ## 累计统计
 
-- **发布数**: 29 · **已合并 PR**: 2388 · **开放 PR**: 22 · **已关闭 issue**: 2153 · **开放 issue**: 166 · **提交数**: 11663
+- **发布数**: 29 · **已合并 PR**: 2389 · **开放 PR**: 22 · **已关闭 issue**: 2154 · **开放 issue**: 167 · **提交数**: 11667
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 1 | 75 | 9 | 10 | 5 | 157 |
-| last60d | 2026-08-27 | 1 | 168 | 9 | 25 | 7 | 371 |
-| 90d | 2026-07-28 | 1 | 219 | 9 | 39 | 7 | 548 |
-| last180d | 2026-04-29 | 1 | 245 | 13 | 53 | 9 | 564 |
-| 360d | 2025-10-31 | 1 | 284 | 16 | 90 | 21 | 581 |
-| last720d | 2024-11-05 | 5 | 571 | 16 | 205 | 36 | 1972 |
+| 30d | 2026-09-27 | 1 | 73 | 9 | 9 | 6 | 161 |
+| last60d | 2026-08-28 | 1 | 168 | 9 | 23 | 8 | 375 |
+| 90d | 2026-07-29 | 1 | 214 | 9 | 40 | 8 | 552 |
+| last180d | 2026-04-30 | 1 | 245 | 13 | 54 | 10 | 568 |
+| 360d | 2025-11-01 | 1 | 283 | 16 | 91 | 22 | 585 |
+| last720d | 2024-11-06 | 5 | 571 | 16 | 206 | 37 | 1976 |
 
 ## Release 资产
 
@@ -74,7 +74,7 @@ x install hashcat
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/hashcat) 上共有 **98** 个发行版报告此项目。**3** 个 ✅ 已是最新上游版本，**87** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/hashcat) 上共有 **98** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**85** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -84,7 +84,7 @@ x install hashcat
 | Ubuntu 26.04 LTS | `7.1.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `6.2.6` | ⚠️ outdated |
 | Arch | `8.0.0` | ✅ latest |
-| Homebrew | `7.1.2` | ⚠️ outdated |
+| Homebrew | `8.0.0` | ✅ latest |
 | Fedora rawhide | `7.1.2` | ⚠️ outdated |
 | Nix unstable | `7.1.2` | ⚠️ outdated |
 | Void | `7.1.2` | ⚠️ outdated |
@@ -100,4 +100,4 @@ hashcat 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261026.yml` · 2026-10-26T04:33:31Z._
+_数据快照: `data/card/261027.yml` · 2026-10-27T04:52:24Z._
