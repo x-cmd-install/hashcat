@@ -1,23 +1,3 @@
-- repo: gnuguix
-  srcname: hashcat
-  binname: hashcat
-  visiblename: hashcat
-  version: 7.1.2
-  origversion: null
-  status: outdated
-  summary: Advanced password recovery utility
-- repo: nix_stable_25_05
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: hashcat
@@ -438,6 +418,18 @@
     - MIT AND LicenseRef-Fedora-Public-Domain AND BSD-2-Clause AND Apache-2.0
   categories:
     - Unspecified
+- repo: nix_stable_25_11
+  srcname: hashcat
+  visiblename: hashcat
+  version: 7.1.2
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
 - repo: freebsd
   srcname: security/hashcat
   binname: hashcat
@@ -476,31 +468,6 @@
     - MIT
   categories:
     - app-crypt
-- repo: nix_stable_24_05
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - kierdavis@gmail.com
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
 - repo: gentoo
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -527,6 +494,14 @@
     - MIT
   categories:
     - app-crypt
+- repo: gnuguix
+  srcname: hashcat
+  binname: hashcat
+  visiblename: hashcat
+  version: 7.1.2
+  origversion: null
+  status: outdated
+  summary: Advanced password recovery utility
 - repo: homebrew
   srcname: hashcat
   visiblename: hashcat
@@ -647,16 +622,6 @@
     - MIT
   categories:
     - app-crypt
-- repo: slackbuilds
-  srcname: system/hashcat
-  visiblename: system/hashcat
-  version: 7.1.2
-  origversion: null
-  status: outdated
-  maintainers:
-    - urchlay@slackware.uk
-  categories:
-    - system
 - repo: macports
   srcname: security/hashcat
   binname: hashcat
@@ -704,10 +669,35 @@
   summary: Multithreaded advanced password recovery utility
   licenses:
     - MIT
-- repo: nix_stable_25_11
+- repo: nix_stable_24_05
   srcname: hashcat
   visiblename: hashcat
-  version: 7.1.2
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - kierdavis@gmail.com
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
   origversion: null
   status: outdated
   summary: Fast password cracker
@@ -1084,6 +1074,16 @@
   status: newest
   licenses:
     - MIT
+- repo: slackbuilds
+  srcname: system/hashcat
+  visiblename: system/hashcat
+  version: 7.1.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - urchlay@slackware.uk
+  categories:
+    - system
 - repo: solus
   srcname: hashcat
   binname: hashcat
@@ -1139,9 +1139,9 @@
 - repo: t2
   srcname: hashcat
   visiblename: hashcat
-  version: 7.1.2
+  version: 8.0.0
   origversion: null
-  status: outdated
+  status: newest
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - rene@exactco.de
