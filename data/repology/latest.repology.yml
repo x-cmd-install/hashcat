@@ -418,18 +418,6 @@
     - MIT AND LicenseRef-Fedora-Public-Domain AND BSD-2-Clause AND Apache-2.0
   categories:
     - Unspecified
-- repo: nix_stable_25_11
-  srcname: hashcat
-  visiblename: hashcat
-  version: 7.1.2
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
 - repo: freebsd
   srcname: security/hashcat
   binname: hashcat
@@ -468,6 +456,45 @@
     - MIT
   categories:
     - app-crypt
+- repo: openmandriva_cooker
+  subrepo: unsupported/release
+  srcname: hashcat
+  visiblename: hashcat
+  version: 5.1.0
+  origversion: 5.1.0-1
+  status: outdated
+  summary: CPU-based password recovery utility
+  maintainers:
+    - nobodydead@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Security
+- repo: nix_stable_24_05
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - kierdavis@gmail.com
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
 - repo: gentoo
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -596,6 +623,17 @@
     - MIT
   categories:
     - app-crypt
+- repo: openpkg_current
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.0.0
+  origversion: null
+  status: outdated
+  summary: Password Recovery Utility
+  licenses:
+    - MIT
+  categories:
+    - Cryptography
 - repo: liguros_develop
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -669,35 +707,22 @@
   summary: Multithreaded advanced password recovery utility
   licenses:
     - MIT
-- repo: nix_stable_24_05
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - kierdavis@gmail.com
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
 - repo: nix_stable_25_05
   srcname: hashcat
   visiblename: hashcat
   version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: hashcat
+  visiblename: hashcat
+  version: 7.1.2
   origversion: null
   status: outdated
   summary: Fast password cracker
@@ -758,31 +783,6 @@
     - MIT
   categories:
     - Productivity/Security
-- repo: openmandriva_cooker
-  subrepo: unsupported/release
-  srcname: hashcat
-  visiblename: hashcat
-  version: 5.1.0
-  origversion: 5.1.0-1
-  status: outdated
-  summary: CPU-based password recovery utility
-  maintainers:
-    - nobodydead@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Security
-- repo: openpkg_current
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.0.0
-  origversion: null
-  status: outdated
-  summary: Password Recovery Utility
-  licenses:
-    - MIT
-  categories:
-    - Cryptography
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: hashcat
@@ -869,7 +869,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: hashcat
   binnames:
     - hashcat
@@ -884,7 +884,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: hashcat
   binnames:
     - hashcat
