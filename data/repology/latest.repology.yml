@@ -106,9 +106,9 @@
   srcname: hashcat
   binname: hashcat
   visiblename: hashcat
-  version: 7.1.2
-  origversion: 1:7.1.2-2
-  status: outdated
+  version: 8.0.0
+  origversion: 1:8.0.0-1
+  status: newest
   summary: Multithreaded advanced password recovery utility
   licenses:
     - MIT
@@ -470,31 +470,6 @@
     - MIT
   categories:
     - Productivity/Security
-- repo: nix_stable_24_05
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - kierdavis@gmail.com
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
 - repo: gentoo
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -664,12 +639,14 @@
   srcname: security/hashcat
   binname: hashcat
   visiblename: hashcat
-  version: 7.1.2
+  version: 8.0.0
   origversion: null
-  status: outdated
+  status: newest
   summary: World's fastest and most advanced password recovery utility.
   maintainers:
     - gaming-hacker@github
+    - i0ntempest@macports
+    - i0ntempest@github
   licenses:
     - MIT
   categories:
@@ -705,6 +682,31 @@
   origversion: 1:7.1.2-2
   status: outdated
   summary: Multithreaded advanced password recovery utility
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - kierdavis@gmail.com
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - zimbatm@zimbatm.com
   licenses:
     - MIT
 - repo: nix_stable_25_05
@@ -869,7 +871,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: hashcat
   binnames:
     - hashcat
@@ -884,7 +886,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: hashcat
   binnames:
     - hashcat
