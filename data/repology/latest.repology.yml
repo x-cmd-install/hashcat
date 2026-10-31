@@ -1,3 +1,63 @@
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 6.1.1
+  origversion: 6.1.1+ds1-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - epsilon77@gmail.com
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 7.1.2
+  origversion: 7.1.2+ds1-4
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - epsilon@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - epsilon77@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 7.1.2
+  origversion: 7.1.2+ds1-4
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - epsilon@debian.org
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: hashcat
@@ -66,6 +126,21 @@
     - MIT
   categories:
     - System/Base
+- repo: deepin_25
+  subrepo: community
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - epsilon77@gmail.com
+  categories:
+    - net
 - repo: aosc
   srcname: app-penetration/hashcat
   binname: hashcat
@@ -257,51 +332,6 @@
   maintainers:
     - team+pkg-security@tracker.debian.org
     - epsilon77@gmail.com
-- repo: deepin_25
-  subrepo: community
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: 6.2.6+ds2-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon77@gmail.com
-  categories:
-    - net
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 6.1.1
-  origversion: 6.1.1+ds1-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon77@gmail.com
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 7.1.2
-  origversion: 7.1.2+ds1-4
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon@debian.org
-  categories:
-    - misc
 - repo: fedora_39
   subrepo: release
   srcname: hashcat
@@ -354,6 +384,18 @@
     - MIT AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.5
+  origversion: 6.2.5-bp155.1.7
+  status: outdated
+  summary: CPU-based password recovery utility
+  licenses:
+    - GPL-2.0-or-later AND MIT
+  categories:
+    - Productivity/Security
 - repo: fedora_42
   subrepo: release
   srcname: hashcat
@@ -456,20 +498,6 @@
     - MIT
   categories:
     - app-crypt
-- repo: openmandriva_cooker
-  subrepo: unsupported/release
-  srcname: hashcat
-  visiblename: hashcat
-  version: 5.1.0
-  origversion: 5.1.0-1
-  status: outdated
-  summary: CPU-based password recovery utility
-  maintainers:
-    - nobodydead@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Security
 - repo: gentoo
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -572,6 +600,33 @@
     - MIT
   categories:
     - app-crypt
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: 6.2.6-bp156.1.4
+  status: outdated
+  summary: CPU-based password recovery utility
+  licenses:
+    - GPL-2.0-or-later AND MIT
+  categories:
+    - Productivity/Security
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 4.0.1
+  origversion: 4.0.1-1
+  status: outdated
+  maintainers:
+    - pkg-security-team@lists.alioth.debian.org
+    - epsilon77@gmail.com
+  categories:
+    - universe/misc
 - repo: liguros_develop
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -598,17 +653,6 @@
     - MIT
   categories:
     - app-crypt
-- repo: openpkg_current
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.0.0
-  origversion: null
-  status: outdated
-  summary: Password Recovery Utility
-  licenses:
-    - MIT
-  categories:
-    - Cryptography
 - repo: liguros_develop
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -785,30 +829,31 @@
     - MIT
   categories:
     - Productivity/Security
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
+- repo: openmandriva_cooker
+  subrepo: unsupported/release
   srcname: hashcat
   visiblename: hashcat
-  version: 6.2.5
-  origversion: 6.2.5-bp155.1.7
+  version: 5.1.0
+  origversion: 5.1.0-1
   status: outdated
   summary: CPU-based password recovery utility
+  maintainers:
+    - nobodydead@gmail.com
   licenses:
-    - GPL-2.0-or-later AND MIT
+    - MIT
   categories:
     - Productivity/Security
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
+- repo: openpkg_current
   srcname: hashcat
   visiblename: hashcat
-  version: 6.2.6
-  origversion: 6.2.6-bp156.1.4
+  version: 6.0.0
+  origversion: null
   status: outdated
-  summary: CPU-based password recovery utility
+  summary: Password Recovery Utility
   licenses:
-    - GPL-2.0-or-later AND MIT
+    - MIT
   categories:
-    - Productivity/Security
+    - Cryptography
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: hashcat
@@ -871,7 +916,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: hashcat
   binnames:
     - hashcat
@@ -886,7 +931,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: hashcat
   binnames:
     - hashcat
@@ -1005,36 +1050,6 @@
     - epsilon77@gmail.com
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: 6.2.6+ds2-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon77@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 7.1.2
-  origversion: 7.1.2+ds1-4
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon@debian.org
-  categories:
-    - misc
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: hashcat
@@ -1079,9 +1094,9 @@
 - repo: slackbuilds
   srcname: system/hashcat
   visiblename: system/hashcat
-  version: 7.1.2
+  version: 8.0.0
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - urchlay@slackware.uk
   categories:
@@ -1161,21 +1176,6 @@
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - termux-user-repository@github
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 4.0.1
-  origversion: 4.0.1-1
-  status: outdated
-  maintainers:
-    - pkg-security-team@lists.alioth.debian.org
-    - epsilon77@gmail.com
-  categories:
-    - universe/misc
 - repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: hashcat

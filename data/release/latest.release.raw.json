@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 20350217,
       "digest": "sha256:9fa86e1bfd5dd898d3c83aa38a67b08db1ba5d2f5252dffa2af44a8c62585f49",
-      "download_count": 2470,
+      "download_count": 3058,
       "created_at": "2026-10-25T20:09:18Z",
       "updated_at": "2026-10-25T20:09:20Z",
       "browser_download_url": "https://github.com/hashcat/hashcat/releases/download/v8.0.0/hashcat-8.0.0.7z"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 488,
       "digest": "sha256:26dea42d4c575ad5eafa3094108796cc369a663d325bf36fb7adaf5fef74a35d",
-      "download_count": 78,
+      "download_count": 86,
       "created_at": "2026-10-25T20:09:18Z",
       "updated_at": "2026-10-25T20:09:19Z",
       "browser_download_url": "https://github.com/hashcat/hashcat/releases/download/v8.0.0/hashcat-8.0.0.7z.asc"
