@@ -14,11 +14,11 @@ x install hashcat
 
 ## Code insight
 
-Total: **588,797** lines of code across **2170** files in the top 5 languages.
+Total: **588,799** lines of code across **2170** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 295,143 | 28,637 | 88,108 | 983 |
+| C | 295,145 | 28,643 | 88,112 | 983 |
 | CHeader | 220,346 | 10,942 | 10,472 | 374 |
 | Python | 40,210 | 7,822 | 22,762 | 779 |
 | Cpp | 10,328 | 269 | 1,774 | 4 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v8.0.0` (2026-10-25)
-- **Last commit**: 2026-10-29
+- **Last commit**: 2026-10-30
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 27,185 · **Forks**: 3,596 · **Open issues**: 2,323 · **Contributors**: 206
+- **Stars**: 27,200 · **Forks**: 3,596 · **Open issues**: 2,323 · **Contributors**: 206
 
 ## Totals (cumulative)
 
-- **Releases**: 29 · **Merged PRs**: 2397 · **Open PRs**: 19 · **Closed issues**: 2161 · **Open issues**: 162 · **Commits**: 11688
+- **Releases**: 29 · **Merged PRs**: 2398 · **Open PRs**: 22 · **Closed issues**: 2161 · **Open issues**: 162 · **Commits**: 11690
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 1 | 75 | 8 | 10 | 4 | 182 |
-| last60d | 2026-08-31 | 1 | 171 | 9 | 27 | 6 | 396 |
-| 90d | 2026-08-01 | 1 | 220 | 9 | 39 | 6 | 573 |
-| last180d | 2026-05-03 | 1 | 252 | 12 | 57 | 7 | 589 |
-| 360d | 2025-11-04 | 1 | 291 | 13 | 97 | 16 | 606 |
-| last720d | 2024-11-09 | 5 | 578 | 13 | 213 | 32 | 1986 |
+| 30d | 2026-10-01 | 1 | 74 | 10 | 10 | 4 | 184 |
+| last60d | 2026-09-01 | 1 | 172 | 12 | 26 | 6 | 398 |
+| 90d | 2026-08-02 | 1 | 221 | 12 | 39 | 6 | 575 |
+| last180d | 2026-05-04 | 1 | 253 | 15 | 57 | 7 | 591 |
+| 360d | 2025-11-05 | 1 | 291 | 16 | 97 | 16 | 608 |
+| last720d | 2024-11-10 | 5 | 579 | 16 | 212 | 32 | 1982 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **98** distros on [repology.org](https://repology.org/project/hashcat). **8** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
+Reported by **98** distros on [repology.org](https://repology.org/project/hashcat). **9** are ✅ on the latest upstream release, **81** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for hashcat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:47:30Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:23:34Z._
