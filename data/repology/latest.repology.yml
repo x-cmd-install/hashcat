@@ -1,3 +1,12 @@
+- repo: pclinuxos
+  srcname: hashcat
+  visiblename: hashcat
+  version: 5.1.0
+  origversion: 5.1.0-1pclos2019
+  status: outdated
+  summary: World's fastest and most advanced password recovery utility
+  categories:
+    - Security
 - repo: alpine_edge
   subrepo: testing
   srcname: hashcat
@@ -443,21 +452,6 @@
     - MIT
   categories:
     - app-crypt
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 6.1.1
-  origversion: 6.1.1+ds1-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon77@gmail.com
-  categories:
-    - net
 - repo: gentoo
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -471,20 +465,6 @@
     - MIT
   categories:
     - app-crypt
-- repo: openmandriva_cooker
-  subrepo: unsupported/release
-  srcname: hashcat
-  visiblename: hashcat
-  version: 5.1.0
-  origversion: 5.1.0-1
-  status: outdated
-  summary: CPU-based password recovery utility
-  maintainers:
-    - nobodydead@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Security
 - repo: gentoo
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -613,6 +593,51 @@
     - MIT
   categories:
     - app-crypt
+- repo: pardus_21
+  subrepo: main
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 6.1.1
+  origversion: 6.1.1+ds1-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - epsilon77@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - epsilon77@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: 6.2.6+ds2-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - epsilon77@gmail.com
+  categories:
+    - misc
 - repo: liguros_develop
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -789,6 +814,20 @@
     - MIT
   categories:
     - Productivity/Security
+- repo: openmandriva_cooker
+  subrepo: unsupported/release
+  srcname: hashcat
+  visiblename: hashcat
+  version: 5.1.0
+  origversion: 5.1.0-1
+  status: outdated
+  summary: CPU-based password recovery utility
+  maintainers:
+    - nobodydead@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Security
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: hashcat
@@ -820,12 +859,12 @@
     - hashcat
     - hashcat-debuginfo
     - hashcat-debugsource
-    - libhashcat7
+    - libhashcat8
     - hashcat-devel
   visiblename: hashcat
-  version: 7.1.2
-  origversion: 7.1.2+git942-1.1
-  status: outdated
+  version: 8.0.0
+  origversion: 8.0.0-1.1
+  status: newest
   summary: CPU-based password recovery utility
   licenses:
     - GPL-2.0-or-later AND MIT
@@ -859,60 +898,6 @@
   summary: Multithreaded advanced password recovery utility
   licenses:
     - MIT
-- repo: pardus_21
-  subrepo: main
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 6.1.1
-  origversion: 6.1.1+ds1-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon77@gmail.com
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: 6.2.6+ds2-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon77@gmail.com
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: 6.2.6+ds2-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon77@gmail.com
-  categories:
-    - misc
-- repo: pclinuxos
-  srcname: hashcat
-  visiblename: hashcat
-  version: 5.1.0
-  origversion: 5.1.0-1pclos2019
-  status: outdated
-  summary: World's fastest and most advanced password recovery utility
-  categories:
-    - Security
 - repo: pkgsrc_2026_2
   srcname: security/hashcat
   binname: hashcat
@@ -958,6 +943,21 @@
   visiblename: hashcat
   version: 5.1.0
   origversion: 5.1.0+ds1-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - epsilon77@gmail.com
+  categories:
+    - net
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-data
+  visiblename: hashcat
+  version: 6.1.1
+  origversion: 6.1.1+ds1-1
   status: outdated
   maintainers:
     - team+pkg-security@tracker.debian.org
