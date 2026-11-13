@@ -1,3 +1,27 @@
+- repo: nix_stable_24_11
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: hashcat
@@ -9,19 +33,6 @@
   summary: World's fastest and most advanced password recovery utility
   maintainers:
     - alpine@ptrcnull.me
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - kierdavis@gmail.com
-    - zimbatm@zimbatm.com
   licenses:
     - MIT
 - repo: alpine_edge
@@ -175,6 +186,14 @@
   summary: Password recovery tool (documentation)
   licenses:
     - MIT
+- repo: gnuguix
+  srcname: hashcat
+  binname: hashcat
+  visiblename: hashcat
+  version: 7.1.2
+  origversion: null
+  status: outdated
+  summary: Advanced password recovery utility
 - repo: chocolatey
   binname: hashcat
   visiblename: Hashcat (Install)
@@ -415,18 +434,6 @@
     - MIT AND LicenseRef-Fedora-Public-Domain AND BSD-2-Clause AND Apache-2.0
   categories:
     - Unspecified
-- repo: nix_stable_24_11
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
 - repo: fedora_rawhide
   subrepo: development
   srcname: hashcat
@@ -481,6 +488,41 @@
     - MIT
   categories:
     - app-crypt
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: hashcat
+  binname: hashcat
+  visiblename: hashcat
+  version: 8.0.0
+  origversion: 1:8.0.0-1
+  status: newest
+  summary: Multithreaded advanced password recovery utility
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: hashcat
+  binname: hashcat
+  visiblename: hashcat
+  version: 8.0.0
+  origversion: 1:8.0.0-1
+  status: newest
+  summary: Multithreaded advanced password recovery utility
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - kierdavis@gmail.com
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
 - repo: gentoo
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -507,14 +549,16 @@
     - MIT
   categories:
     - app-crypt
-- repo: gnuguix
-  srcname: hashcat
-  binname: hashcat
-  visiblename: hashcat
-  version: 7.1.2
+- repo: gentoo_ovl_pentoo
+  srcname: app-crypt/hashcat
+  visiblename: app-crypt/hashcat
+  version: 8.0.0
   origversion: null
-  status: outdated
-  summary: Advanced password recovery utility
+  status: newest
+  maintainers:
+    - zerochaos@gentoo.org
+  categories:
+    - app-crypt
 - repo: homebrew
   srcname: hashcat
   visiblename: hashcat
@@ -544,18 +588,6 @@
     - epsilon@debian.org
   categories:
     - misc
-- repo: nix_stable_25_05
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
 - repo: liguros_stable
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -671,28 +703,6 @@
   version: 7.1.2
   origversion: 1:7.1.2-2
   status: outdated
-  summary: Multithreaded advanced password recovery utility
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: hashcat
-  binname: hashcat
-  visiblename: hashcat
-  version: 8.0.0
-  origversion: 1:8.0.0-1
-  status: newest
-  summary: Multithreaded advanced password recovery utility
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: hashcat
-  binname: hashcat
-  visiblename: hashcat
-  version: 8.0.0
-  origversion: 1:8.0.0-1
-  status: newest
   summary: Multithreaded advanced password recovery utility
   licenses:
     - MIT
