@@ -10,7 +10,7 @@
     - zimbatm@zimbatm.com
   licenses:
     - MIT
-- repo: nix_stable_24_05
+- repo: nix_stable_25_05
   srcname: hashcat
   visiblename: hashcat
   version: 6.2.6
@@ -19,7 +19,18 @@
   summary: Fast password cracker
   maintainers:
     - felix@albrigtsen.it
-    - kierdavis@gmail.com
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: hashcat
+  visiblename: hashcat
+  version: 7.1.2
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
     - zimbatm@zimbatm.com
   licenses:
     - MIT
@@ -30,6 +41,19 @@
   origversion: null
   status: rolling
   summary: World's fastest and most advanced password recovery utility
+- repo: alpine_edge
+  subrepo: testing
+  srcname: hashcat
+  binname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: 6.2.6-r0
+  status: outdated
+  summary: World's fastest and most advanced password recovery utility
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - MIT
 - repo: kali_rolling
   subrepo: main
   srcname: hashcat
@@ -45,19 +69,6 @@
     - epsilon@debian.org
   categories:
     - misc
-- repo: alpine_edge
-  subrepo: testing
-  srcname: hashcat
-  binname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: 6.2.6-r0
-  status: outdated
-  summary: World's fastest and most advanced password recovery utility
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: hashcat
@@ -283,23 +294,8 @@
     - hashcat
     - hashcat-data
   visiblename: hashcat
-  version: 7.1.2
-  origversion: 7.1.2+ds1-4
-  status: legacy
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - epsilon@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: hashcat
-  binnames:
-    - hashcat
-    - hashcat-data
-  visiblename: hashcat
   version: 8.0.0
-  origversion: 8.0.0+ds1-1
+  origversion: 8.0.0+ds1-2
   status: newest
   maintainers:
     - team+pkg-security@tracker.debian.org
@@ -464,6 +460,35 @@
     - MIT AND LicenseRef-Fedora-Public-Domain AND BSD-2-Clause AND Apache-2.0
   categories:
     - Unspecified
+- repo: nix_stable_24_05
+  srcname: hashcat
+  visiblename: hashcat
+  version: 6.2.6
+  origversion: null
+  status: outdated
+  summary: Fast password cracker
+  maintainers:
+    - felix@albrigtsen.it
+    - kierdavis@gmail.com
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: fedora_45
+  subrepo: release
+  srcname: hashcat
+  binnames:
+    - hashcat
+    - hashcat-devel
+    - hashcat-doc
+  visiblename: hashcat
+  version: 7.1.2
+  origversion: 7.1.2-6.fc45
+  status: outdated
+  summary: Advanced password recovery utility
+  licenses:
+    - MIT AND LicenseRef-Fedora-Public-Domain AND BSD-2-Clause AND Apache-2.0
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: hashcat
@@ -485,7 +510,7 @@
   binname: hashcat
   visiblename: security/hashcat
   version: 7.1.2
-  origversion: 7.1.2_14,1
+  origversion: 7.1.2_15,1
   status: outdated
   summary: Advanced CPU-based password recovery utility
   maintainers:
@@ -634,6 +659,18 @@
     - MIT
   categories:
     - app-crypt
+- repo: pkgsrc_2026_3
+  srcname: security/hashcat
+  binname: hashcat
+  visiblename: security/hashcat
+  version: 7.1.2
+  origversion: null
+  status: outdated
+  summary: World's fastest and most advanced password recovery utility
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - security
 - repo: liguros_develop
   srcname: app-crypt/hashcat
   visiblename: app-crypt/hashcat
@@ -707,30 +744,6 @@
   origversion: 1:8.0.0-1
   status: newest
   summary: Multithreaded advanced password recovery utility
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: hashcat
-  visiblename: hashcat
-  version: 6.2.6
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: hashcat
-  visiblename: hashcat
-  version: 7.1.2
-  origversion: null
-  status: outdated
-  summary: Fast password cracker
-  maintainers:
-    - felix@albrigtsen.it
-    - zimbatm@zimbatm.com
   licenses:
     - MIT
 - repo: nix_stable_26_05
@@ -924,18 +937,6 @@
   categories:
     - Security
 - repo: pkgsrc_2026_2
-  srcname: security/hashcat
-  binname: hashcat
-  visiblename: security/hashcat
-  version: 7.1.2
-  origversion: null
-  status: outdated
-  summary: World's fastest and most advanced password recovery utility
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - security
-- repo: pkgsrc_2026_3
   srcname: security/hashcat
   binname: hashcat
   visiblename: security/hashcat
@@ -1142,19 +1143,6 @@
     - MIT
   categories:
     - programming.devel
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: hashcat
-  binname: hashcat
-  visiblename: hashcat
-  version: 7.1.2
-  origversion: 7.1.2_1
-  status: outdated
-  summary: Advanced CPU-based password recovery utility
-  maintainers:
-    - duncaen@voidlinux.org
-  licenses:
-    - MIT
 - repo: spack
   srcname: hashcat
   visiblename: hashcat
@@ -1323,6 +1311,19 @@
     - epsilon@debian.org
   categories:
     - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: hashcat
+  binname: hashcat
+  visiblename: hashcat
+  version: 7.1.2
+  origversion: 7.1.2_1
+  status: outdated
+  summary: Advanced CPU-based password recovery utility
+  maintainers:
+    - duncaen@voidlinux.org
+  licenses:
+    - MIT
 - repo: wikidata
   srcname: Q17081377
   visiblename: Hashcat
