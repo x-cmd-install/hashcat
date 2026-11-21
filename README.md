@@ -38,22 +38,22 @@ Total: **551,203** lines of code across **2296** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 27,390 · **Forks**: 3,638 · **Open issues**: 2,341 · **Contributors**: 216
+- **Stars**: 27,395 · **Forks**: 3,639 · **Open issues**: 2,341 · **Contributors**: 216
 
 ## Totals (cumulative)
 
-- **Releases**: 29 · **Merged PRs**: 2480 · **Open PRs**: 14 · **Closed issues**: 2322 · **Open issues**: 19 · **Commits**: 11862
+- **Releases**: 29 · **Merged PRs**: 2480 · **Open PRs**: 16 · **Closed issues**: 2322 · **Open issues**: 19 · **Commits**: 11862
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 1 | 98 | 7 | 22 | 2 | 231 |
-| last60d | 2026-09-21 | 1 | 179 | 9 | 39 | 3 | 418 |
-| 90d | 2026-08-22 | 1 | 263 | 9 | 53 | 3 | 634 |
-| last180d | 2026-05-24 | 1 | 326 | 10 | 77 | 3 | 771 |
-| 360d | 2025-11-25 | 1 | 371 | 10 | 121 | 5 | 775 |
-| last720d | 2024-11-30 | 5 | 660 | 10 | 246 | 9 | 2142 |
+| 30d | 2026-10-22 | 1 | 97 | 9 | 22 | 1 | 231 |
+| last60d | 2026-09-22 | 1 | 175 | 11 | 37 | 3 | 418 |
+| 90d | 2026-08-23 | 1 | 260 | 11 | 53 | 3 | 634 |
+| last180d | 2026-05-25 | 1 | 322 | 12 | 76 | 3 | 771 |
+| 360d | 2025-11-26 | 1 | 371 | 12 | 120 | 5 | 775 |
+| last720d | 2024-12-01 | 5 | 659 | 12 | 246 | 9 | 2142 |
 
 ## Release assets
 
@@ -64,7 +64,7 @@ Total: **551,203** lines of code across **2296** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **100** distros on [repology.org](https://repology.org/project/hashcat). **19** are ✅ on the latest upstream release, **73** are ⚠️ on an older version.
+Reported by **99** distros on [repology.org](https://repology.org/project/hashcat). **19** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for hashcat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:04:24Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:17:27Z._
