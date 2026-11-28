@@ -14,13 +14,13 @@ x install hashcat
 
 ## Code insight
 
-Total: **557,708** lines of code across **2316** files in the top 5 languages.
+Total: **557,957** lines of code across **2318** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 247,803 | 31,969 | 97,369 | 1039 |
+| C | 247,975 | 31,986 | 97,449 | 1040 |
 | CHeader | 221,540 | 11,341 | 10,847 | 386 |
-| Python | 54,286 | 9,125 | 26,459 | 857 |
+| Python | 54,363 | 9,146 | 26,504 | 858 |
 | Cpp | 10,328 | 269 | 1,774 | 4 |
 | Coq | 6,137 | 459 | 1,512 | 30 |
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,433 · **Forks**: 3,645 · **Open issues**: 2,340 · **Contributors**: 215
+- **Stars**: 27,440 · **Forks**: 3,647 · **Open issues**: 2,341 · **Contributors**: 215
 
 ## Totals (cumulative)
 
-- **Releases**: 29 · **Merged PRs**: 2505 · **Open PRs**: 6 · **Closed issues**: 2328 · **Open issues**: 12 · **Commits**: 11916
+- **Releases**: 29 · **Merged PRs**: 2506 · **Open PRs**: 5 · **Closed issues**: 2329 · **Open issues**: 12 · **Commits**: 11918
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 101 | 3 | 23 | 1 | 236 |
-| last60d | 2026-09-28 | 1 | 186 | 5 | 38 | 2 | 431 |
-| 90d | 2026-08-29 | 1 | 281 | 5 | 53 | 2 | 646 |
-| last180d | 2026-05-31 | 1 | 340 | 6 | 75 | 2 | 825 |
-| 360d | 2025-12-02 | 1 | 395 | 6 | 118 | 3 | 829 |
-| last720d | 2024-12-07 | 5 | 682 | 6 | 248 | 5 | 2193 |
+| 30d | 2026-10-29 | 0 | 102 | 2 | 23 | 2 | 238 |
+| last60d | 2026-09-29 | 1 | 185 | 3 | 37 | 3 | 433 |
+| 90d | 2026-08-30 | 1 | 282 | 4 | 53 | 3 | 648 |
+| last180d | 2026-06-01 | 1 | 341 | 5 | 75 | 3 | 827 |
+| 360d | 2025-12-03 | 1 | 396 | 5 | 118 | 4 | 831 |
+| last720d | 2024-12-08 | 5 | 683 | 5 | 248 | 6 | 2195 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for hashcat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T08:10:19Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T07:38:03Z._
